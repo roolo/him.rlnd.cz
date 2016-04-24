@@ -1,0 +1,150 @@
+/* uses font awesome for social icons */
+/*@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);*/
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css);
+
+body {
+  background-color: rgba(192, 173, 154, 0.19);
+}
+
+.page-header{
+  text-align: center;
+}
+
+.btn {
+  font-size:  18px;
+}
+
+/*social buttons*/
+.btn-social{
+  color:  white;
+  opacity:0.9;
+  width:  31px;
+}
+.btn-social:hover {
+  color: white;
+  opacity:1;
+}
+
+.social-btn-holder {
+  padding-top: 5px;
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+  opacity:0.9;
+}
+.btn-twitter {
+  background-color: #00aced;
+  opacity:0.9;
+}
+.btn-linkedin {
+  background-color:#0e76a8;
+  opacity:0.9;
+}
+.btn-github{
+  background-color:#000000;
+  opacity:0.9;
+}
+.btn-google {
+  background-color: #c32f10;
+  opacity: 0.9;
+}
+.btn-stackoverflow{
+  background-color: #D38B28;
+  opacity: 0.9;
+}
+.btn-instagram{
+  background-color: #044877;
+}
+
+.btn-youtube{
+  background-color: #e5201a;
+}
+
+.btn-snapchat {
+  background-color: #fefd37;
+  color:  black;
+}
+
+.btn-adn {
+  background-color: #000000;
+}
+
+.btn-vimeo {
+  background-color: #11acec;
+}
+
+
+.section-heading .section-heading-link {
+  display:  none;
+  color:    grey;
+  text-decoration: underline;
+}
+
+.section-heading:hover .section-heading-link {
+  display:  inline;
+}
+
+.youtube-thumbnail {
+  float:  left;
+  margin-right: 1em;
+}
+
+
+
+/* resume stuff */
+
+.bs-callout {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #eee;
+  border-image: none;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px 1px 1px 5px;
+  margin-bottom: 5px;
+  padding: 20px;
+  background-color: rgba(255, 219, 217, 0.23);
+}
+.bs-callout:last-child {
+  margin-bottom: 0px;
+}
+.bs-callout h4 {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.bs-callout-danger {
+  border-left-color: #d9534f;
+}
+
+.bs-callout-danger h4{
+  color: #d9534f;
+}
+
+.resume .list-group-item:first-child, .resume .list-group-item:last-child{
+  border-radius:0;
+}
+
+/*makes an anchor inactive(not clickable)*/
+.inactive-link {
+  pointer-events: none;
+  cursor: default;
+}
+
+.resume-heading .social-btns{
+  margin-top:15px;
+}
+.resume-heading .social-btns i.fa{
+  margin-left:-5px;
+}
+
+
+
+@media (max-width: 992px) {
+  .resume-heading .social-btn-holder{
+    padding:5px;
+  }
+}
