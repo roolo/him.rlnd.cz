@@ -1,6 +1,6 @@
 /* uses font awesome for social icons */
 /*@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);*/
-@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css);
+@import url(/css/font-awesome.min.css);
 
 body {
   background-color: rgba(192, 173, 154, 0.19);
