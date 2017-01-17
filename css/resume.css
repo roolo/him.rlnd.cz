@@ -74,6 +74,9 @@ body {
   background-color: #11acec;
 }
 
+.btn-bitcoin {
+  background-color: #449acf;
+}
 
 .section-heading .section-heading-link {
   display:  none;
