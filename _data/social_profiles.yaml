@@ -1,0 +1,33 @@
+- name: YouTube
+  url:  https://www.youtube.com/c/MailoSvetel
+  brand_icon_name: youtube-play
+- name: App.net &mdash; Alpha
+  url:  https://alpha.app.net/lipoqil
+  brand_icon_name: adn
+- name: Snapchat
+  url:  #section-snapchat
+  brand_icon_name: snapchat
+- name: Google Plus
+  url:  http://plus.google.com/+MailoSvetel
+  brand_icon_name: google
+- name: Instagram
+  url:  https://www.instagram.com/lipoqil/
+  brand_icon_name: instagram
+- name: Twitter
+  url:  https://twitter.com/lipoqil
+  brand_icon_name: twitter
+- name: Github
+  url:  https://github.com/roolo/
+  brand_icon_name: github
+- name: Stack overflow
+  url:  http://stackoverflow.com/users/133986/mailo
+  brand_icon_name: stack-overflow
+- name: Vimeo
+  url:  https://vimeo.com/mailo
+  brand_icon_name: vimeo-square
+- name: Bitcoin
+  url:  #section-bitcoin
+  brand_icon_name: btc
+- name: SoundCloud
+  url:  https://soundcloud.com/lipoqil
+  brand_icon_name: soundcloud

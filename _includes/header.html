@@ -12,70 +12,13 @@
               <p>
               Social profiles:
               </p>
-              <div class="col-xs-2 col-md-2 col-lg-2 social-btn-holder">
-                <a title="YouTube" href="https://www.youtube.com/c/MailoSvetel" class="btn btn-social btn-block btn-youtube">
-                  <i class="fa fa-youtube-play">&nbsp;</i>
-                </a>
-              </div>
-
-              <div class="col-xs-2 col-md-2 col-lg-2 social-btn-holder">
-                <a title="App.net &mdash; Alpha" href="https://alpha.app.net/lipoqil" class="btn btn-social btn-block btn-adn">
-                  <i class="fa fa-adn">&nbsp;</i>
-                </a>
-              </div>
-
-              <div class="col-xs-2 col-md-2 col-lg-2 social-btn-holder">
-                <a title="Snapchat" href="#section-snapchat" class="btn btn-social btn-block btn-snapchat">
-                  <i class="fa fa-snapchat">&nbsp;</i>
-                </a>
-              </div>
-
-              <div class="col-xs-2 col-md-2 col-lg-2 social-btn-holder">
-                <a title="Google Plus" href="http://plus.google.com/+MailoSvetel" class="btn btn-social btn-block btn-google">
-                  <i class="fa fa-google">&nbsp;</i>
-                </a>
-              </div>
-
-              <div class="col-xs-2 col-md-2 col-lg-2 social-btn-holder">
-                <a title="Instagram" href="https://www.instagram.com/lipoqil/" class="btn btn-social btn-block btn-instagram">
-                  <i class="fa fa-instagram">&nbsp;</i>
-                </a>
-              </div>
-
-              <div class="col-xs-2 col-md-2 col-lg-2 social-btn-holder">
-                <a title="twitter" href="https://twitter.com/lipoqil" class="btn btn-social btn-block btn-twitter">
-                  <i class="fa fa-twitter"></i> </a>
-              </div>
-
-              <div class="col-xs-2 col-md-2 col-lg-2 social-btn-holder">
-                <a title="Github" href="https://github.com/roolo/" class="btn btn-social btn-block btn-github">
-                  <i class="fa fa-github"></i>
-                </a>
-              </div>
-
-              <div class="col-xs-2 col-md-2 col-lg-2 social-btn-holder">
-                <a title="Stack overflow" href="http://stackoverflow.com/users/133986/mailo" class="btn btn-social btn-block btn-stackoverflow">
-                  <i class="fa fa-stack-overflow"></i>
-                </a>
-              </div>
-
-              <div class="col-xs-2 col-md-2 col-lg-2 social-btn-holder">
-                <a title="Vimeo" href="https://vimeo.com/mailo" class="btn btn-social btn-block btn-vimeo">
-                  <i class="fa fa-vimeo-square"></i>
-                </a>
-              </div>
-
-              <div class="col-xs-2 col-md-2 col-lg-2 social-btn-holder">
-                <a title="Bitcoin" href="#section-bitcoin" class="btn btn-social btn-block btn-bitcoin">
-                  <i class="fa fa-btc">&nbsp;</i>
-                </a>
-              </div>
-
-              <div class="col-xs-3 col-md-2 col-lg-2 social-btn-holder">
-                <a title="SoundCloud" href="https://soundcloud.com/lipoqil" class="btn btn-social btn-block btn-soundcloud">
-                  <i class="fa fa-soundcloud">&nbsp;</i>
-                </a>
-              </div>
+              {% for sp in site.data.social_profiles %}
+                <div class="col-xs-2 col-md-2 col-lg-2 social-btn-holder">
+                  <a title="{{ sp.name }}" href="{{ sp.url }}" class="btn btn-social btn-block btn-{{ sp.brand_icon_name }}">
+                    <i class="fa fa-{{ sp.brand_icon_name }}">&nbsp;</i>
+                  </a>
+                </div>
+              {% endfor %}
             </div>
           </div>
 
