@@ -78,6 +78,10 @@ body {
   background-color: #449acf;
 }
 
+.btn-soundcloud {
+  background-color: #DF4E27;
+}
+
 .section-heading .section-heading-link {
   display:  none;
   color:    grey;
