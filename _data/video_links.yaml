@@ -1,3 +1,9 @@
+- name: '#MailoLongboardsItaly2016'
+  description: |
+    This is serie about my longboard trip from Rome to Sicily. I did not made
+    the whole trip in the end, but it quite a journey ;)
+  video_url:  https://vimeo.com/album/4220000
+  thumb_url:  https://i.vimeocdn.com/video/599194345_590x332.jpg
 - name: '[LBD] Prokopské údolí na longboardu'
   description: |
     This video is my trip to work via Prokopské Údolí
@@ -5,12 +11,6 @@
     Beautiful nature and piece of my city.
   video_url:  https://vimeo.com/177815331
   thumb_url:  http://i.vimeocdn.com/video/586007552_640.jpg
-- name: '[LBD] Beroun s Dertem'
-  description: |
-    Trip on longboard to Beroun town with my friend Dert. I had about 34
-    kilometers in my legs and then started to heavily rain.
-  video_url:  https://www.youtube.com/watch?v=UKzelsMuHrE
-  thumb_url:  https://i.ytimg.com/vi/UKzelsMuHrE/mqdefault.jpg?v=UKzelsMuHrE
 - name: 'Passo del Tonale 2016'
   description: |
     My vacation at Italian alps. Lot of snowboarding, boardgames and new food ;)
