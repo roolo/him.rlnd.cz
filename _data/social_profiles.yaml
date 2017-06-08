@@ -2,7 +2,7 @@
   url:  https://www.youtube.com/c/MailoSvetel
   brand_icon_name: youtube-play
 - name: Snapchat
-  url:  #section-snapchat
+  url:  '#section-snapchat'
   brand_icon_name: snapchat
 - name: Google Plus
   url:  http://plus.google.com/+MailoSvetel
