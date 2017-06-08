@@ -1,9 +1,6 @@
 - name: YouTube
   url:  https://www.youtube.com/c/MailoSvetel
   brand_icon_name: youtube-play
-- name: App.net &mdash; Alpha
-  url:  https://alpha.app.net/lipoqil
-  brand_icon_name: adn
 - name: Snapchat
   url:  #section-snapchat
   brand_icon_name: snapchat
