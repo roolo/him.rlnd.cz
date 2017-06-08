@@ -23,7 +23,7 @@
   url:  https://vimeo.com/mailo
   brand_icon_name: vimeo-square
 - name: Bitcoin
-  url:  #section-bitcoin
+  url:  '#section-bitcoin'
   brand_icon_name: btc
 - name: SoundCloud
   url:  https://soundcloud.com/lipoqil
