@@ -5,7 +5,7 @@
   url:  '#section-snapchat'
   brand_icon_name: snapchat
 - name: Google Plus
-  url:  http://plus.google.com/+MailoSvetel
+  url:  https://plus.google.com/+MailoSvetel
   brand_icon_name: google
 - name: Instagram
   url:  https://www.instagram.com/lipoqil/
@@ -17,7 +17,7 @@
   url:  https://github.com/roolo/
   brand_icon_name: github
 - name: Stack overflow
-  url:  http://stackoverflow.com/users/133986/mailo
+  url:  https://stackoverflow.com/users/133986/mailo-světel
   brand_icon_name: stack-overflow
 - name: Vimeo
   url:  https://vimeo.com/mailo
@@ -25,6 +25,10 @@
 - name: Bitcoin
   url:  '#section-bitcoin'
   brand_icon_name: btc
+- name: Gitlab
+  url:  https://rubygems.org/profiles/mailo
+  brand_icon_name: gitlab
 - name: SoundCloud
   url:  https://soundcloud.com/lipoqil
   brand_icon_name: soundcloud
+

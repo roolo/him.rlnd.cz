@@ -82,6 +82,10 @@ body {
   background-color: #DF4E27;
 }
 
+.btn-gitlab {
+  background-color: #292961;
+}
+
 .section-heading .section-heading-link {
   display:  none;
   color:    grey;
