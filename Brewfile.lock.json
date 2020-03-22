@@ -1,0 +1,39 @@
+{
+  "entries": {
+    "brew": {
+      "imagemagick": {
+        "version": "7.0.9-27",
+        "bottle": {
+          "cellar": "/usr/local/Cellar",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/imagemagick-7.0.9-27.catalina.bottle.tar.gz",
+              "sha256": "a7ac78361861e8495139ff89f2bf0b34d280b7f1c07393f5485357c5b8d05c58"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/imagemagick-7.0.9-27.mojave.bottle.tar.gz",
+              "sha256": "45794f765c9c4afe6f962ff1c9b876be22d3039f7cfcb4f2dd7bcfe7d6a02983"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/imagemagick-7.0.9-27.high_sierra.bottle.tar.gz",
+              "sha256": "b66cf7d523e26e6f855468c5899394f10168dadf64d555bc366f3d4c53368a2b"
+            }
+          }
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "catalina": {
+        "HOMEBREW_VERSION": "2.2.9",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "897c53114c662fabd1eb3e371eda38bdfe1f17be",
+        "CLT": "",
+        "Xcode": "11.3.1",
+        "macOS": "10.15.3"
+      }
+    }
+  }
+}

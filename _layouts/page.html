@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>{{page.title}}</title>
+  <title>{{ page.title }}</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/resume.css">
 
@@ -12,21 +12,7 @@
 <body>
 <div class="container">
   <div class="resume">
-    <header class="page-header">
-      <h1 class="page-title">Mailo Světel</h1>
-      <small>
-        <i class="fa fa-clock-o"></i>
-        Last Updated: {{ site.time }}
-      </small>
-    </header>
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
-        {% include header.html %}
-        {% include video.html %}
-        {% include snapchat.html %}
-        {% include bitcoin.html %}
-      </div>
-    </div>
+    {{ content }}
   </div>
 </div>
 

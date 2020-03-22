@@ -23,4 +23,11 @@ gem 'minima', '~> 2.0'
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.6'
+  # https://github.com/ggreer/jekyll-gallery-generator
+  gem 'jekyll-gallery-generator', '~> 1.2.2'
+end
+
+group :jekyll_plugins_gallery_generator do
+  gem 'exifr', '~> 1.3.6'
+  gem 'rmagick', '~> 2.16.0'
 end
