@@ -1,3 +1,13 @@
+- name: 'Piano'
+  description: |
+    In 2020 I started to learn play piano.
+
+    <li>Friends</li>
+    <li>Sweet but psycho</li>
+    <li>Westworld</li>
+
+  video_url:  //vimeo.com/showcase/7110184
+  thumb_url:  //i.vimeocdn.com/video/890315153.jpg?mw=590&mh=332&q=70
 - name: 'Japonsko 2018'
   description: |
     In 2018 I went with friends to Japan. We visited Tokyo, Osaka and Kyoto.
