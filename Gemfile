@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 source 'https://rubygems.org'
-ruby '2.7.0'
+ruby '2.7.1'
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -29,5 +29,5 @@ end
 
 group :jekyll_plugins_gallery_generator do
   gem 'exifr', '~> 1.3.6'
-  gem 'rmagick', '~> 2.16.0'
+  gem 'rmagick', '~>  4.1.2'
 end
